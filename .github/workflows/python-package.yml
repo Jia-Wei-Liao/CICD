@@ -39,4 +39,4 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Run python code
       run: |
-        python main.py
+        python train.py
