@@ -1,10 +1,10 @@
 from sklearn.ensmble import RandomForestClassifer
-from sklearn.datasets import load_breast_cancer, load_iris
+from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
 import pandas as pd
 
 
-dataset = data_load_iris(as_frame=True)
+dataset = load_iris(as_frame=True)
 X = dataset.data.to_numpy()
 y = dataset.target.values
 
